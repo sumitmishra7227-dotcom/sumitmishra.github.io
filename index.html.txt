@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sumit Mishra | Data Scientist</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+  <h2>Sumit</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+  <h1>Hello, I'm <span>Sumit Mishra</span></h1>
+  <p>Data Scientist | Data Analyst | Machine Learning Enthusiast</p>
+  <a href="resume.pdf" download class="btn">Download Resume</a>
+</section>
+
+<!-- About -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am a Computer Science & Mathematics undergraduate passionate about 
+    Data Science and Analytics. I enjoy working with data, extracting insights, 
+    building models, and solving real-world problems.
+  </p>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-box">
+    <span>Python</span>
+    <span>SQL</span>
+    <span>Machine Learning</span>
+    <span>Data Analysis</span>
+    <span>Pandas</span>
+    <span>NumPy</span>
+    <span>Power BI</span>
+    <span>Excel</span>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project-card">
+    <h3>Sales Data Analysis</h3>
+    <p>Analyzed sales dataset using Python and created insights.</p>
+  </div>
+
+  <div class="project-card">
+    <h3>Student Performance Prediction</h3>
+    <p>Built ML model to predict student performance.</p>
+  </div>
+
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Email: sumitmishra7227@gmail.com</p>
+
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
